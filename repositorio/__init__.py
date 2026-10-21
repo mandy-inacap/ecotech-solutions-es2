@@ -1,0 +1,3 @@
+from repositorio.conexion import ConexionBD, inicializar_bd
+from repositorio.departamento_repo import DepartamentoRepositorio
+from repositorio.empleado_repo import EmpleadoRepositorio
