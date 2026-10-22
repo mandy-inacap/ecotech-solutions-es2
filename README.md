@@ -1,15 +1,22 @@
-# EcoTech Solutions - Sistema de gestión de empleados (ES2 TI3021)
+# EcoTech Solutions - Sistema de Gestión de Empleados (ES2 TI3021)
 
-Aplicación de consola en Python (POO) con persistencia en SQLite. Implementa el diagrama UML final de la Unidad 1.
+Aplicación de consola en Python basada en Programación Orientada a Objetos (POO) con persistencia en SQLite. Implementa el diagrama UML final de la Unidad 1.
 
-## Estructura
-- `dominio/`: clases del modelo (sin SQL) y excepciones propias.
-- `repositorio/`: conexión y acceso a datos (todo el SQL, siempre parametrizado).
-- `datos/schema.sql`: tablas con llaves primarias y foráneas.
-- `main.py`: menú por consola y demostración automática.
+## Integrantes y Roles
+- **Amanda Hidalgo:** Liderazgo de proyecto, arquitectura de repositorio/base de datos e informe final.
+- **Roberto Gajardo:** Diseño del diagrama UML final, clases de dominio y documentación técnica.
+- **Jesús Capetillo:** Pruebas de ejecución, validación de flujos de consola y casos de prueba.
 
-## Ejecución
-1. `python -m venv venv` y activarlo (`venv\Scripts\activate` en Windows).
-2. `pip install -r requirements.txt` (no hay dependencias externas).
-3. Copiar `.env.example` a `.env` (opcional; por defecto usa `ecotech.db`).
-4. `python main.py` para el menú, o `python main.py --demo` para la demostración automática.
+## Estructura del Proyecto
+- `dominio/`: Clases del modelo (POO puro, sin SQL) y excepciones personalizadas.
+- `repositorio/`: Conexión y acceso a la base de datos (consultas parametrizadas con SQLite).
+- `datos/schema.sql`: Estructura de tablas con llaves primarias y foráneas.
+- `docs/`: Diagrama UML final y documentación técnica.
+- `main.py`: Menú interactivo por consola y modo demostración automática.
+
+## Instrucciones de Ejecución
+
+1. Abrir la terminal de VS Code en la carpeta raíz del proyecto.
+2. Navegar a la subcarpeta que contiene el código fuente:
+   ```bash
+   cd ecotech_solutions
