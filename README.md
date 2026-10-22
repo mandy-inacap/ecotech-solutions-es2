@@ -20,3 +20,5 @@ Aplicación de consola en Python basada en Programación Orientada a Objetos (PO
 2. Navegar a la subcarpeta que contiene el código fuente:
    ```bash
    cd ecotech_solutions
+
+![Demostración de ejecución](docs/demostracion.png) 
