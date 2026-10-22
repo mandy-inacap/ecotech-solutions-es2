@@ -41,3 +41,15 @@ python main.py
 ```
 
 Si `python` no funciona en Windows, probar con `py main.py --demo`.
+
+### Menú Interactivo de Consola
+
+
+![Menú Interactivo](docs/menu_interactivo.png)
+
+
+
+#### Casos de Uso Validados por el Equipo
+- **CRUD de Empleados y Departamentos:** Creación, lectura, actualización y borrado de registros desde consola.
+- **Manejo de Excepciones:** Validación en tiempo de ejecución para evitar caídas ante datos inválidos.
+- **Transacciones complejas:** Creación conjunta de empleado + credencial garantizando consistencia.
