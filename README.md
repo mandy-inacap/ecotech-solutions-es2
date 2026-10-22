@@ -21,4 +21,23 @@ Aplicación de consola en Python basada en Programación Orientada a Objetos (PO
    ```bash
    cd ecotech_solutions
 
+3. Ejecutar la demostración automática, que muestra la conexión, el CRUD, los errores controlados, la prueba de inyección SQL y la transacción con rollback:
+
+```
+python main.py --demo
+```
+
+Salida esperada:
+
+
+
 ![Demostración de ejecución](docs/demostracion.png) 
+
+
+4. Para usar el menú interactivo (registrar, buscar, actualizar y eliminar empleados):
+
+```
+python main.py
+```
+
+Si `python` no funciona en Windows, probar con `py main.py --demo`.
